@@ -60,7 +60,6 @@ echo"</script>";
 exit;
 } else {echo"";
 }
-
 }
 ?>
 
