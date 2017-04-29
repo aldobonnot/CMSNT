@@ -1,17 +1,11 @@
 <div class="global">
 <h1 class="h1"><?php echo $titrecontenu;?> </h1>
-
-
 <div class="txt"><?php echo $contenu;?></div> 
-			
 <div class="txt imgfd">
     <form  enctype="multipart/form-data" method="post">
-
       <table class="tabform">
-        
         <tr> 
           <td class="txt3"> 
-            
             <?php  if($envoi!="" && $ok == false){?>
 			<div class="erreur txt3">
 				<b>Message d'erreur</b><br><br>
