@@ -11,3 +11,4 @@ un footer à crééer en fonction de vos besoins.
 Il fonctionne super vite, il a des bons resultats dans Gmetrix. ce n'est pas une référence je sais.
 Je l'ai construit surtout pour faciliter la tache des referenceurs,
 il ya des interfaces spécifiques pour eux.
+Pour le SQL de la BDD thierry.navas@neuf.fr
