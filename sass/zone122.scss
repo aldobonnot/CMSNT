@@ -1,0 +1,276 @@
+@import "compass";
+@import "variablesGlobales";
+@import "head";
+@import "menu";
+@import "liensAll";
+@import "footer";
+@import "fancybox";
+
+$colorlieu:#A5035C;
+$colortitre:#0A4202;
+/*----------------------------------tablette-----------------------*/
+@media ($Largmini : $largeur-phone + 1 ){
+
+.global{
+width:90%;
+margin:auto;
+padding-bottom:20px;
+padding-right:10px;
+margin-top:-15px;
+margin-bottom:20px;
+}
+.exposition{font-size:1.5em;}
+.txt{
+min-height:320px;
+padding-bottom:20px;
+font-family: $fontfamily;
+font-size:0.9em; 
+font-weight:400; 
+color: $colortext;}
+.lieu2{padding-top:5px;}
+a.lieu{font-family:$fontfamily;color:$colortext;font-size:1.8em;text-decoration:none;}
+a.lieu:hover{color:#ccc;text-decoration:none;}
+.txtexp{
+padding:10px 0px 2px 0px;
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+}
+.h1{text-align:left;
+		font-family: $logo; 
+		font-size:2em; 
+		font-weight:600; 
+		color: $colortext;
+		margin-bottom:0px;}
+.leven{
+	width:95%;
+	margin-bottom:20px;
+		}
+
+.datered{font-size:1.6em;color:#ff0000;}
+.dateblack{font-size:1.6em;color:#000;}
+.verni{font-size:1.4em;font-weight:800;padding:0px;}
+.letxt{font-family:$fontfamily;font-size:1.2em;}
+.first{
+    float: right;
+    margin: 0 0px 10px 10px;
+	@include border-radius(10px 10px 10px 10px);
+	max-width:180px;
+	height:auto;
+}	
+.round{@include border-radius(10px 10px 10px 10px);
+max-width:180px;
+	height:auto;
+	}
+	.h2{
+	
+	font-family: $logo;
+	font-size:1.2em; 
+	font-weight:600; 
+	color: $colortext;
+	margin:10px 0px 10px 0px;}
+	a.ah2{font-family: $logo; font-size:1.1em; font-weight:800; color:$colortitre;margin:0px;text-decoration:none;}
+	a.ah2:hover{color: $hover;margin:0px;text-decoration:none;}
+.limage{@include border-radius(10px 10px 10px 10px);margin:2px;}
+.hr{line-height: 50%;
+    padding: 0px 0px 0px 0px;
+    margin: 5px auto;
+    opacity: 0.3;
+    filter: Alpha(opacity=30);
+}
+.pacces{
+position:absolute;
+border:1px solid #ff0000;
+@include border-radius(10px 10px 10px 10px);
+margin-top:20px;
+padding:10px;
+right: 150px;
+
+}
+a.acces{font-family:arial;font-size:1.2em;font-weight:800;text-decoration:none;color:#000;}
+a.acces:hover{text-decoration:none;color:#ccc;}
+
+
+
+
+
+
+
+
+
+}
+/*----------------------------------fin tablette----------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------pc----------------------------*/
+@media ($Largmini : $largeur-tablette + 1 ){
+
+.global{
+width:60%;
+padding-bottom:20px;
+padding-right:10px;
+margin-left:420px;
+margin-top:80px;
+margin-bottom:20px;
+}
+.exposition{font-size:1.5em;}
+.txt{
+min-height:380px;
+padding-bottom:20px;
+font-family: $fontfamily;
+font-size:0.9em; 
+font-weight:400; 
+color: $colortext;}
+.lieu2{padding-top:5px;}
+a.lieu{font-family:$fontfamily;color:$colortext;font-size:1.8em;text-decoration:none;}
+a.lieu:hover{color:#ccc;text-decoration:none;}
+.txtexp{
+padding:10px 0px 2px 0px;
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+}
+
+.h1{text-align:left;
+		font-family: $logo; 
+		font-size:2em; 
+		font-weight:600; 
+		color: $colortext;}
+.leven{
+	width:95%;
+	margin-bottom:20px;
+		}
+
+.datered{font-size:1.6em;color:#ff0000;}
+.dateblack{font-size:1.6em;color:#000;}
+.verni{font-size:1.4em;font-weight:800;padding:0px;}
+.letxt{font-family:$fontfamily;font-size:1.2em;}
+.first{
+    float: right;
+    margin: 0 10px 10px 10px;
+	@include border-radius(10px 10px 10px 10px);
+	max-width:320px;
+	height:auto;
+}	
+.round{@include border-radius(10px 10px 10px 10px);
+max-width:320px;
+	height:auto;
+	}	
+
+	.h2{
+	
+	font-family: $logo;
+	font-size:1.2em; 
+	font-weight:600; 
+	color: $colortext;
+	margin:10px 0px 10px 0px;}
+	a.ah2{font-family: $logo; font-size:1.1em; font-weight:800; color:$colortitre;margin:0px;text-decoration:none;}
+	a.ah2:hover{color: $hover;margin:0px;text-decoration:none;}
+.limage{@include border-radius(10px 10px 10px 10px);margin:2px;}
+.hr{line-height: 50%;
+    padding: 0px 0px 0px 0px;
+    margin: 5px auto;
+    opacity: 0.3;
+    filter: Alpha(opacity=30);
+}
+.pacces{
+position:absolute;
+border:1px solid #ff0000;
+@include border-radius(10px 10px 10px 10px);
+margin-top:20px;
+padding:10px;
+right: 150px;
+
+}
+a.acces{font-family:arial;font-size:1.2em;font-weight:800;text-decoration:none;color:#000;}
+a.acces:hover{text-decoration:none;color:#ccc;}
+}
+/*--------------------------------------fin pc----------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------telephone-------------------------*/
+@media ($Largemax : $largeur-phone){
+.global{
+width:95%;
+margin:auto;
+padding-left:20px;
+padding-bottom:20px;
+padding-right:0px;
+margin-top:-15px;
+margin-bottom:20px;
+}
+.exposition{font-size:1.3em;}
+.txt{
+min-height:320px;
+padding-bottom:20px;
+font-family: $fontfamily;
+font-size:0.9em; 
+font-weight:400; 
+color: $colortext;}
+.lieu2{padding-top:5px;}
+a.lieu{font-family:$fontfamily;color:$colortext;font-size:1.1em;text-decoration:none;}
+a.lieu:hover{color:#ccc;text-decoration:none;}
+.txtexp{
+padding:10px 0px 2px 0px;
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+}
+.h1{text-align:left;
+		font-family: $logo; 
+		font-size:1.5em; 
+		font-weight:600; 
+		color: $colortext;
+		margin-bottom:25px;}
+.leven{
+	width:95%;
+	margin-bottom:20px;
+		}
+
+.datered{font-size:1.3em;color:#ff0000;}
+.dateblack{font-size:1.3em;color:#000;}
+.verni{font-size:1.2em;font-weight:800;padding:0px;}
+.letxt{font-family:$fontfamily;font-size:1.2em;}
+.first{
+	text-align:center;
+    max-width:280px;
+	height:auto;
+}
+.round{@include border-radius(10px 10px 10px 10px);
+max-width:280px;
+	height:auto;
+	}	
+
+	.h2{
+	
+	font-family: $logo;
+	font-size:1.2em; 
+	font-weight:600; 
+	color: $colortext;
+	margin:10px 0px 10px 0px;}
+	a.ah2{font-family: $logo; font-size:1.1em; font-weight:800; color:$colortitre;margin:0px;text-decoration:none;}
+	a.ah2:hover{color: $hover;margin:0px;text-decoration:none;}
+.limage{@include border-radius(10px 10px 10px 10px);margin:2px;}
+.hr{line-height: 50%;
+    padding: 0px 0px 0px 0px;
+    margin: 5px auto;
+    opacity: 0.3;
+    filter: Alpha(opacity=30);
+}
+.pacces{
+position:absolute;
+border:1px solid #ff0000;
+@include border-radius(10px 10px 10px 10px);
+margin-top:20px;
+padding:10px;
+right: 20px;
+
+}
+a.acces{font-family:arial;font-size:1em;font-weight:800;text-decoration:none;color:#000;}
+a.acces:hover{text-decoration:none;color:#ccc;}
+
+}
+/*--------------------------------------fin telephone-------------------------*/

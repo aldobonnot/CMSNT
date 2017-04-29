@@ -1,0 +1,125 @@
+@import "compass";
+@import "variablesGlobales";
+@import "head";
+@import "menu";
+@import "liensAll";
+@import "footer";
+
+
+.txt{
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+}
+.cmt{text-align:left;font-size:0.8em;}
+.tabcent{
+margin:0 auto;
+border:0;
+width:100%;
+padding:5px;}
+.tdG{text-align:center; background:#C59696;}
+.tabcentI{
+margin:0 auto;
+border:0;
+width:100%;
+padding:0;}
+.tabquatrevingtdixI{
+margin:0 auto;
+border:0;
+width:90%;
+padding:5px;
+}
+.tdDroitBleu{text-align:right;background:#C6E3E3;}
+.tdDroitVert{text-align:right;background:#D1E29C;}
+.tdDroitMarron{text-align:right;background:#DECD92;}
+.une{height:1px;}
+
+
+
+
+
+/*tablette*/
+@media ($Largmini : $largeur-phone + 1 ){
+.global{
+width:100%;
+margin-top:-25px;
+margin-left:20px;
+margin-right:10px;
+padding-right:10px;
+padding-top:0px;
+padding-bottom:10px;
+}
+	.h1{
+		font-family: $logo; 
+		font-size:1.3em; 
+		font-weight:600; 
+		color: $colortext;}
+	.cnt{position:absolute;z-index:-1;right:10%;top:140px;}
+	.img{width:100%; height:$h-imgfdpagesmall; color:#ffffff;background-image: url("../img/fdidx.jpg");background-size: auto $h-imgfdpagesmall;
+	background-position: right bottom;background-repeat: no-repeat;}
+	.tcell{width:20px;}
+	.dfont{display:block;}
+	a.titreP{font-family: $logo; font-size:1.2em; font-weight:600; color:$colortext;text-decoration:none;}
+	a.titreP:hover{color:#333333;text-decoration:none;}
+	a.titreP2{font-family: $logo; font-size:1.0em; font-weight:600; color:$colortext;text-decoration:none;}
+	a.titreP2:hover{color:#333333;text-decoration:none;}
+	a.titreP3{font-family: $logo; font-size:0.8em; font-weight:600; color:$colortext;text-decoration:none;}
+	a.titreP3:hover{color:#333333;text-decoration:none;}
+	a.modif{font-family: $fontfamily; font-size:0.8em; font-weight:400; color:$colortext;text-decoration:none;}
+	a.modif:hover{color:#FF0000;text-decoration:none;}
+}
+
+/*pc*/
+@media ($Largmini : $largeur-tablette + 1 ){.global{
+width:60%;
+
+padding-bottom:0px;
+padding-right:10px;
+margin-left:430px;
+margin-top:80px;
+}
+	.h1{
+		font-family: $logo; 
+		font-size:2em; 
+		font-weight:600; 
+		color: $colortext;}
+	.cnt{position:absolute;z-index:25;right:10%;top:50px;}
+	.img{width:100%;height:$h-imgfdpagebig;color:#ffffff;background-image: url("../img/fdidx.jpg");
+	background-position: right bottom;background-repeat: no-repeat;z-index:8;}
+	.tcell{width:60px;}
+	.dfont{display:inline;}
+	a.titreP{font-family: $logo; font-size:1.6em; font-weight:600; color:$colortext;text-decoration:none;}
+	a.titreP:hover{color:#333333;text-decoration:none;}
+	a.titreP2{font-family: $logo; font-size:1.4em; font-weight:600; color:$colortext;text-decoration:none;}
+	a.titreP2:hover{color:#333333;text-decoration:none;}
+	a.titreP3{font-family: $logo; font-size:1.2em; font-weight:600; color:$colortext;text-decoration:none;}
+	a.titreP3:hover{color:#333333;text-decoration:none;}
+	a.modif{font-family: $fontfamily; font-size:0.8em; font-weight:400; color:$colortext;text-decoration:none;}
+	a.modif:hover{color:#FF0000;text-decoration:none;}}
+
+/*telephone*/
+@media ($Largemax : $largeur-phone){.global{
+width:95%;
+margin:auto;
+padding-bottom:10px;
+}
+	.h1{
+		font-family: $logo; 
+		font-size:1.3em; 
+		font-weight:600; 
+		color: $colortext;}
+	.cnt{position:absolute;z-index:-1;right:10%;top:140px;}
+	.img{width:100%; height:$h-imgfdpagesmall; color:#ffffff;background-image: url("../img/fdidx.jpg");background-size: auto $h-imgfdpagesmall;
+	background-position: right bottom;background-repeat: no-repeat;}
+	.tcell{width:20px;}
+	.dfont{display:block;}
+	a.titreP{font-family: $logo; font-size:1.2em; font-weight:600; color:$colortext;text-decoration:none;}
+	a.titreP:hover{color:#333333;text-decoration:none;}
+	a.titreP2{font-family: $logo; font-size:1.0em; font-weight:600; color:$colortext;text-decoration:none;}
+	a.titreP2:hover{color:#333333;text-decoration:none;}
+	a.titreP3{font-family: $logo; font-size:0.8em; font-weight:600; color:$colortext;text-decoration:none;}
+	a.titreP3:hover{color:#333333;text-decoration:none;}
+	a.modif{font-family: $fontfamily; font-size:0.8em; font-weight:400; color:$colortext;text-decoration:none;}
+	a.modif:hover{color:#FF0000;text-decoration:none;}}
+

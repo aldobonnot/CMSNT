@@ -1,0 +1,319 @@
+@import "compass";
+@import "variablesGlobales";
+@import "head";
+@import "menu";
+@import "liensAll";
+@import "footer";
+@import "fancybox";
+
+
+$colorlieu:#A5035C;
+$colortitre:#0A4202;
+/*----------------------------------tablette-----------------------*/
+@media ($Largmini : $largeur-phone + 1 ){
+
+.global{
+width:90%;
+padding-bottom:0px;
+padding-right:0px;
+margin:auto;
+margin-top:-15px;
+}
+.txt{
+padding-bottom:20px;
+font-family: $fontfamily;
+font-size:0.9em; 
+font-weight:400; 
+color: $colortext;}
+a.lieu{font-family:$fontfamily;color:$colorlieu;font-size:1em;text-decoration:none;}
+a.lieu:hover{color:#ccc;text-decoration:none;}
+.txtexp{
+padding-top:3px;
+padding-bottom:3px;
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+text-decoration:none;
+}
+p {
+
+padding-top:1px;
+margin-top:1px;
+padding-bottom:-10px;
+margin-bottom:-10px;
+}
+.h1{text-align:center;
+		font-family: $logo; 
+		font-size:2em; 
+		font-weight:600; 
+		color: $colortext;}
+.leven{
+	width:95%;
+	@include border-radius(150px 10px 150px 10px);
+	height: 152px;
+	border:1px solid #ccc;
+	margin-bottom:20px;
+		}
+.leven-green{
+	width:95%;
+	@include border-radius(150px 10px 150px 10px);
+	height: 152px;
+	border:1px solid #F5A9F2;
+	margin-bottom:20px;
+	}
+	.leven-red{
+	width:95%;
+	@include border-radius(150px 10px 150px 10px);
+	height: 152px;
+	border:1px solid #cccccc;
+	margin-bottom:20px;
+	}
+a.datered{color:#ff0000;text-decoration:none;}
+a.datered:hover{color:#ccc;text-decoration:none;}
+a.dateblack{color:#000;text-decoration:none;}
+a.dateblack:hover{color:#ccc;text-decoration:none;}
+a.verni{font-weight:800;padding:0px;color:#000;text-decoration:none;}
+a.verni:hover{font-weight:800;padding:0px;color:#ccc;text-decoration:none;}	
+a.verni{font-weight:800;padding:0px;color:#000;text-decoration:none;}
+a.verni:hover{font-weight:800;padding:0px;color:#ccc;text-decoration:none;}	
+		
+.laphoto{
+	width:150px;
+	 @include border-radius(150px 0px 0px 10px);
+	height: 150px;
+	@include background-size(cover);
+	background-position:center center;}
+	.lecommentaire{
+	line-height:120%;
+	width:75%;
+	margin-left:160px;
+	margin-top:-155px;
+	font-family: $fontfamily;
+	font-size:1em; 
+	font-weight:400;
+	
+	color: $colortext;
+}
+	.h2{
+	font-family: $logo;
+	font-size:1.2em; 
+	font-weight:600; 
+	color: $colortext;
+	margin:10px 0px 4px 0px;}
+	a.ah2{font-family: $logo; font-size:1.1em; font-weight:800; color:$colortitre;margin:0px;text-decoration:none;}
+	a.ah2:hover{color: $hover;margin:0px;text-decoration:none;}
+
+.verni{font-weight:800;padding:0px;}	
+
+
+
+
+
+
+
+
+
+}
+/*----------------------------------fin tablette----------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------pc----------------------------*/
+@media ($Largmini : $largeur-tablette + 1 ){
+
+.global{
+
+width:60%;
+padding-bottom:0px;
+padding-right:10px;
+margin-left:420px;
+margin-top:80px;
+}
+.txt{
+padding-bottom:20px;
+font-family: $fontfamily;
+font-size:0.9em; 
+font-weight:400; 
+color: $colortext;}
+.lieu2{padding-top:5px;}
+a.lieu{font-family:$fontfamily;color:$colorlieu;font-size:1em;text-decoration:none;}
+a.lieu:hover{color:#ccc;text-decoration:none;}
+.txtexp{
+padding:10px 0px 2px 0px;
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+text-decoration:none;
+}
+p {
+
+padding-top:1px;
+margin-top:1px;
+padding-bottom:-10px;
+margin-bottom:-10px;
+}
+.h1{
+		font-family: $logo; 
+		font-size:2em; 
+		font-weight:600; 
+		color: $colortext;}
+.leven{
+	width:95%;
+	@include border-radius(150px 10px 150px 10px);
+	height: 152px;
+	border:1px solid #ccc;
+	margin-bottom:20px;
+		}
+.leven-green{
+	width:95%;
+	@include border-radius(150px 10px 150px 10px);
+	height: 152px;
+	border:1px solid #F5A9F2;
+	margin-bottom:20px;
+	}
+	.leven-red{
+	width:95%;
+	@include border-radius(150px 10px 150px 10px);
+	height: 152px;
+	border:1px solid #cccccc;
+	margin-bottom:20px;
+	}
+a.datered{color:#ff0000;text-decoration:none;}
+a.datered:hover{color:#ccc;text-decoration:none;}
+a.dateblack{color:#000;text-decoration:none;}
+a.dateblack:hover{color:#ccc;text-decoration:none;}
+a.verni{font-weight:800;padding:0px;color:#000;text-decoration:none;}
+a.verni:hover{font-weight:800;padding:0px;color:#ccc;text-decoration:none;}	
+a.verni{font-weight:800;padding:0px;color:#000;text-decoration:none;}
+a.verni:hover{font-weight:800;padding:0px;color:#ccc;text-decoration:none;}	
+.laphoto{
+	width:150px;
+	 @include border-radius(150px 0px 0px 10px);
+	height: 150px;
+	@include background-size(cover);
+	background-position:center center;}
+	.lecommentaire{
+	line-height:120%;
+	width:75%;
+	margin-left:160px;
+	margin-top:-155px;
+	
+}
+	.h2{
+	
+	font-family: $logo;
+	font-size:1.2em; 
+	font-weight:600; 
+	color: $colortext;
+	margin:10px 0px 10px 0px;}
+	a.ah2{font-family: $logo; font-size:1.1em; font-weight:800; color:$colortitre;margin:0px;text-decoration:none;}
+	a.ah2:hover{color: $hover;margin:0px;text-decoration:none;}
+
+
+}
+/*--------------------------------------fin pc----------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------telephone-------------------------*/
+@media ($Largemax : $largeur-phone){
+.global{
+width:95%;
+padding-bottom:0px;
+padding-right:0px;
+margin:auto;
+margin-top:-25px;
+}
+.txt{
+padding-bottom:20px;
+font-family: $fontfamily;
+font-size:0.8em; 
+font-weight:400; 
+color: $colortext;}
+a.lieu{font-family:$fontfamily;color:$colorlieu;font-size:0.8em;text-decoration:none;}
+a.lieu:hover{color:#ccc;text-decoration:none;}
+.txtexp{font-family: $fontfamily;
+font-size:0.9em; 
+font-weight:400; 
+color: $colortext;
+text-decoration:none;}
+p {
+
+padding-top:1px;
+margin-top:1px;
+padding-bottom:-10px;
+margin-bottom:-10px;
+}
+.h1{ text-align:center;
+		font-family: $logo; 
+		font-size:1.3em; 
+		font-weight:600; 
+		color: $colortext;}
+.leven{
+	width:95%;
+	@include border-radius(50px 0px 0px 10px);
+	height: 152px;
+	border-top:1px solid #ccc;
+	border-right:0px solid #fff;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	margin-bottom:20px;
+		}
+.leven-green{
+	width:95%;
+	@include border-radius(50px 0px 0px 10px);
+	height: 152px;
+	border-top:1px solid #F5A9F2;
+	border-right:0px solid #fff;
+	border-bottom:1px solid #F5A9F2;
+	border-left:1px solid #F5A9F2;
+	margin-bottom:20px;
+	}
+	.leven-red{
+	width:95%;
+	@include border-radius(50px 0px 0px 10px);
+	height: 152px;
+	border-top:1px solid #ccc;
+	border-right:0px solid #fff;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	margin-bottom:20px;
+	}
+a.datered{color:#ff0000;text-decoration:none;}
+a.datered:hover{color:#ccc;text-decoration:none;}
+a.dateblack{color:#000;text-decoration:none;}
+a.dateblack:hover{color:#ccc;text-decoration:none;}
+a.verni{font-weight:800;padding:0px;color:#000;text-decoration:none;}
+a.verni:hover{font-weight:800;padding:0px;color:#ccc;text-decoration:none;}	
+a.verni{font-weight:800;padding:0px;color:#000;text-decoration:none;}
+a.verni:hover{font-weight:800;padding:0px;color:#ccc;text-decoration:none;}	
+		
+.laphoto{
+	width:50px;
+	 @include border-radius(150px 0px 0px 10px);
+	height: 150px;
+	@include background-size(cover);
+	background-position:center center;}
+	.lecommentaire{
+	line-height:120%;
+	
+	width:90%;
+	margin-left:60px;
+	margin-top:-155px;
+	font-family: $fontfamily;
+	font-size:0.9em; 
+	font-weight:400;
+	color: $colortext;
+}
+	.h2{
+	font-family: $logo;
+	font-size:1.2em; 
+	font-weight:600; 
+	color: $colortext;
+	margin:10px 0px 4px 0px;}
+	a.ah2{font-family: $logo; font-size:1.1em; font-weight:800; color:$colortitre;margin:0px;text-decoration:none;}
+	a.ah2:hover{color: $hover;margin:0px;text-decoration:none;}
+	.verni{font-weight:800;padding:0px;}
+
+}
+/*--------------------------------------fin telephone-------------------------*/

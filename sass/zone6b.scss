@@ -1,0 +1,104 @@
+@import "bootstrap-compass";
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+@import "compass";
+@import "variablesGlobales";
+@import "head";
+@import "menu";
+@import "liensAll";
+@import "footer";
+
+.global{
+width: 80%;
+margin: auto;
+padding-bottom: 10px;
+}
+.txt{
+font-family: $fontfamily;
+font-size: 1em; 
+font-weight: 400; 
+color: $colortext;
+z-index:10;
+}
+.txt3{
+font-family: $fontfamily;
+font-size:1.0em; 
+font-weight:400; 
+color: #ff0000;
+z-index:10;
+}
+.upload{
+width:300px;
+background-color:#ffffff;
+font-family:Arial;
+font-size:10px;
+margin-top:100px;
+margin-left:100px;
+}
+input, select, textarea
+{padding-top:5px;padding-bottom:5px;border: #C6E1E1 solid 1px;@include border-radius(3px)
+}
+ .tabform{margin:0 auto;width:300px; border:0;  padding:0; }
+.une{height:1px;}
+.tdcentetcinquant{width:100px; height:50px;}
+.red{color:red;} 
+.txtten{font-size:1em; 
+@include text-shadow(rgba(black, 0.5) 1px 1px 0, rgba(black, 0.5) 1px 1px 0, rgba(black, 0.5) 1px 1px 0);}
+.txtdouze{font-size:1.5em;}
+.tddeuxcent{width:200px;}
+.center{text-align:center;}
+@media (min-width: $largeurchangesizefont + 1) {
+	.h1{
+		font-family: $logo; 
+		font-size:2em; 
+		font-weight:600; 
+		color: $colortext;}
+	.h2{
+		font-family: $logo; 
+		font-size:1.5em; 
+		font-weight:600; 
+		color: $colortext;}
+	.h2M{
+		font-family: $logo; 
+		font-size:1.5em; 
+		font-weight:600; 
+		}
+	
+	.erreur{ margin-bottom:10px;color:#ff0000;@include notif($erreur); }
+	.succes{ float:right;color:#0B610B;text-align:center;@include notif($succes); }
+	.imgfd{background:url(../img/fd_contact.jpg)right top no-repeat;
+      background-size: 150px;}
+	}
+@media (max-width: $largeurchangesizefont) {
+	.h1{
+		font-family: $logo; 
+		font-size:1.3em; 
+		font-weight:600; 
+		color: $colortext;}
+	.h2{
+		font-family: $logo; 
+		font-size:1.1em; 
+		font-weight:600; 
+		color: $colortext;}
+	.h2M{
+		font-family: $logo; 
+		font-size:1.1em; 
+		font-weight:600; 
+		}
+	
+	.erreur{width:280px; margin-bottom:10px;color:#ff0000;@include notif($erreur); }
+	.succes{ color:#0B610B;text-align:center; @include notif($succes);}
+	.imgfd{background:url(../img/fd_contact.jpg) no-repeat;
+	background-position:100px 0px;
+      background-size: 150px;}
+	}
+/*-------------------------pc----------------------------------*/
+@media ($Largmini : $largeur-tablette + 1 ){.global{
+margin-top:100px;
+width: 60%;
+margin-left: 430px;
+padding-bottom: 10px;
+}}

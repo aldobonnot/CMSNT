@@ -1,0 +1,64 @@
+@import "compass";
+@import "variablesGlobales";
+@import "head";
+@import "menu";
+@import "liensAll";
+@import "footer";
+
+.global{
+width:80%;
+margin:auto;
+padding-bottom:10px;
+}
+
+.txt{
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+}
+.moins{font-size:0.8em;}
+a.good{
+color:$colortext;
+text-decoration:none;
+font-weight:600;
+}
+a.good:hover{
+color:$hover;
+text-decoration:none;
+}
+a.pw{
+font-family: 'Nothing You Could Do', cursive;
+font-weight:400;
+font-size:16px; 
+color:#000000;
+text-decoration:none;
+}
+a.pw:hover{
+color:#cccccc;
+text-decoration:none; }
+.center{text-align:center;}
+.pcenter{margin:0 auto;}
+
+@media (min-width: $largeurchangesizefont + 1) {
+	.h1{
+		font-family: $logo; 
+		font-size:2em; 
+		font-weight:600; 
+		color: $colortext;}
+	
+	}
+@media (max-width: $largeurchangesizefont) {
+	.h1{
+		font-family: $logo; 
+		font-size:1.3em; 
+		font-weight:600; 
+		color: $colortext;}
+	}
+/*-------------------------pc----------------------------------*/
+@media ($Largmini : $largeur-tablette + 1 ){.global{
+margin-top:100px;
+width: 60%;
+margin-left: 430px;
+padding-bottom: 10px;
+}}

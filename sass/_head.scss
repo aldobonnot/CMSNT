@@ -1,0 +1,42 @@
+body{
+margin: 0;
+padding: 0;
+font-size: $sizetext;
+}
+.tblog{margin-top:30%}
+#cookieChoiceInfo{background-color:#000000;background:url('../img/tkscook.gif');background-size: cover;
+background-repeat: no-repeat;font-family:arial;font-size:10px;color:#fff;}
+#cookieChoiceInfo a{color:#ff0000;text-decoration:none;}
+#cookieChoiceInfo a:hover{color:#Ffffff;text-decoration:none;}
+
+
+/*tablette*/
+@media ($Largmini : $largeur-phone + 1 ){
+.ent{padding-top:25px;line-height:280%;}
+a.tts{font-family:$logo;font-size:70px;padding-left:20px;font-weight:800;text-decoration:none;color:#000}
+a.tts:hover{text-decoration:none;color:#ccc}
+}
+/*pc*/
+@media ($Largmini : $largeur-tablette + 1 ){
+.ent{width:100%;background:#fff;position:fixed;top:0;left:0;z-index:3;line-height:250%;}
+a.tts{font-family:$logo;font-size:70px;padding-left:20px;font-weight:800;text-decoration:none;color:#000}
+a.tts:hover{text-decoration:none;color:#ccc}}
+
+/*telephone*/
+@media ($Largemax : $largeur-phone){.ent{padding-top:20px;line-height:280%;}
+a.tts{font-family:$logo;font-size:60px;padding-left:20px;font-weight:800;text-decoration:none;color:#000}
+a.tts:hover{text-decoration:none;color:#ccc}}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+

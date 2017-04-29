@@ -1,0 +1,149 @@
+@import "compass";
+@import "variablesGlobales";
+@import "head";
+@import "menu";
+@import "liensAll";
+@import "footer";
+
+
+
+a.links2
+{
+font-family: $fontfamily;
+font-size:0.8em; 
+font-weight:400; 
+color: $colortext;
+}
+a.links2:hover{
+color: $hover;
+}
+.photorub{width:100px; height:100px;border-radius: 75px 40px 75px 1px;}
+a.linkInt2{@include opacity(1);}
+a.linkInt2:hover{@include opacity(0.3);}
+
+/*-------------------------tablette---------------------------*/
+@media ($Largmini : $largeur-phone + 1 ){
+.global{
+width:100%;
+margin-top:-15px;
+margin-left:30px;
+margin-right:10px;
+padding-right:10px;
+padding-top:0px;
+padding-bottom:10px;}
+.anim{width:95%;padding-bottom:10px;}
+	.h1{text-align: left;
+		font-family: $logo; 
+		font-size:1.3em; 
+		font-weight:600; 
+		color: $colortext;}
+	div .txt h2{
+	font-family: $logo; 
+		font-size:1.2em; 
+		font-weight:600; 
+		color: $colortext;
+	}
+	.txt{
+text-align:left;	
+padding-left:20px;
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+}
+.txt2{text-align:left;
+padding-left:10px;
+padding-right:10px;
+font-family: $fontfamily;
+font-size:1.0em; 
+font-weight:400; 
+color: $colortext;
+}
+.tabLR{padding:1px;}
+}
+
+/*-------------------------pc----------------------------------*/
+@media ($Largmini : $largeur-tablette + 1 ){
+.global{
+width:60%;
+
+padding-bottom:0px;
+padding-right:10px;
+margin-left:430px;
+margin-top:80px;
+}
+.h1{text-align:left;
+font-family: $logo; 
+		font-size:2em; 
+		font-weight:800; 
+		color: $colortext;}
+div .txt h2{text-align:left;
+	font-family: $logo; 
+		font-size:1.5em; 
+		font-weight:600; 
+		color: $colortext;
+		padding-left:20px;
+		
+	}
+	.tabLR{padding:1px;}
+.txt{text-align:left;
+padding-left:20px;
+padding-right:10px;
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+}
+.txt2{padding-left:10px;
+font-family: $fontfamily;
+font-size:1.0em; 
+font-weight:400; 
+color: $colortext;
+}
+.globliens{padding-top:15px;
+float:right;
+}
+
+
+	}
+	
+/*------------------------telephone--------------------------------*/
+@media ($Largemax : $largeur-phone){
+.global{
+width:100%;
+margin-top:-25px;
+margin-left:10px;
+margin-right:10px;
+padding-right:10px;
+padding-top:0px;
+padding-bottom:10px;}
+.anim{width:95%;padding-bottom:10px;}
+	.h1{text-align: center;
+		font-family: $logo; 
+		font-size:1.3em; 
+		font-weight:600; 
+		color: $colortext;}
+	div .txt h2{
+	font-family: $logo; 
+		font-size:1.2em; 
+		font-weight:600; 
+		color: $colortext;
+	}
+	.txt{
+text-align:center;
+padding-left:20px;
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+}
+.txt2{
+text-align:left;
+padding-left:10px;
+font-family: $fontfamily;
+font-size:1.0em; 
+font-weight:400; 
+color: $colortext;
+}
+.tabLR{padding:1px;}
+}

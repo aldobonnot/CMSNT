@@ -1,0 +1,111 @@
+/* valeurs globales et mixins*/
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(https://fonts.googleapis.com/css?family=Dekko);
+$colortext:#000000 !global;
+$colortext2:#585858;
+$sizetext:14px;
+$fontfamily: Dekko, cursive;
+$imgfdpage: "../img/fdidx.jpg";
+$h-imgfdpagebig: 265px;
+$h-imgfdpagesmall: 100px;
+$largeurchangesizefont: 640px;
+$logo: Gloria Hallelujah, cursive;
+$titreh1:$logo;
+
+/*-------------------------*/
+
+
+/* mixins gestion de la div entete*/
+
+@mixin diventete($height, $bckcolor, $logo){
+width:100%;
+height:$height;
+background-color:$bckcolor;
+background-image:url($logo);
+background-size:auto $height;
+background-position:center top;
+background-repeat:no-repeat;
+}
+/* lien copyright dans l'entete */
+$normalcopyright:#333333 !global;
+$hovercopyright:#910F02 !global;
+$visitedcopyright:#fff !global;
+$sizecopyright:9px;
+@mixin linkcopyright($normalcopyright, $hovercopyright, $visitedcopyright, $sizecopyright){
+color: $normalcopyright;
+font-family:arial;
+font-size:$sizecopyright;
+text-decoration:none;
+&:hover{
+color: $hovercopyright;
+text-decoration:none;
+}
+&:visited{
+color: $visitedcopyright;
+text-decoration:none;
+}
+}
+/* fin lien copyright */
+/*--------------------*/
+
+
+/* variables du menu */
+$menuAB: "../img/BTNvideBig.png";
+$menuA: "../img/BTNvide.png";
+$menu1B: "../img/BTNredBig.png";
+$menu1: "../img/BTNred.png";
+$menu2B: "../img/BTNrose-fluoBig.png";
+$menu2: "../img/BTNrose-fluo.png";
+$menu3B: "../img/BTNroseBig.png";
+$menu3: "../img/BTNrose.png";
+$menuOnB: "../img/BTNblueBig.png";
+$menuOn: "../img/BTNblue.png";
+$couleurhamburger:#ff0000;
+$tailleburger: 6px;
+$backgroundmenu:transparent;
+$fontsize-menu: 30px!global;
+$fontfamily-menu: $logo;
+$colorMoff: #000000;
+$colorMon: #ccccc;
+$colorSMoff: #000;
+$colorSMon: #ff0000;
+
+
+/* lien text */
+$normal:$colortext;
+$hover:#A4A4A4 !global;
+$visited:#494949 !global;
+@mixin linktext($normal, $hover, $visited){
+color: $normal;
+&:hover{
+color: $hover;
+text-decoration:none;
+}
+&:visited{
+color: $visited;
+}
+}
+/* fin lien text */
+
+/* Media pour phone tablette pc*/
+$largeur-phone: 414px;
+$largeur-tablette: 768px;
+$Largemax: max-width;
+$Largmini: min-width;
+/*tablette*/
+/*@media ($Largmini : $largeur-phone + 1 ){}*/
+/*pc*/
+/*@media ($Largmini : $largeur-tablette + 1 ){}*/
+/*telephone*/
+/*@media ($Largemax : $largeur-phone){}*/
+
+/* mixin div message erreur*/
+$succes: #BCF5A9;
+$erreur: #F6CECE;
+@mixin notif($color){
+
+padding:10px;
+background: $color;
+border: darken($color,40%) solid 1px;
+@include border-radius(10px);
+}

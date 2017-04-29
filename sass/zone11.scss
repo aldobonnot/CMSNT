@@ -1,0 +1,94 @@
+@import "compass";
+@import "variablesGlobales";
+@import "head";
+@import "menu";
+@import "liensAll";
+@import "footer";
+
+.global{
+width: 80%;
+margin: auto;
+padding-bottom: 10px;
+}
+.txt{
+font-family: $fontfamily;
+font-size: 1em; 
+font-weight: 400; 
+color: $colortext;
+z-index:10;
+}
+.txt3{
+font-family: $fontfamily;
+font-size:1.0em; 
+font-weight:400; 
+color: #ff0000;
+z-index:10;
+}
+.upload{
+width:300px;
+background-color:#ffffff;
+font-family:Arial;
+font-size:10px;
+margin-top:100px;
+margin-left:100px;
+}
+input, select, textarea
+{padding-top:5px;padding-bottom:5px;padding-right:5px;border: #C6E1E1 solid 1px;@include border-radius(3px)
+}
+
+@media (min-width: $largeurchangesizefont + 1) {
+	.h1{
+		font-family: $fontfamily; 
+		font-size:2em; 
+		font-weight:600; 
+		color: $colortext;}
+	.h2{
+		font-family: $fontfamily; 
+		font-size:1.5em; 
+		font-weight:600; 
+		color: $colortext;}
+	.h2M{
+		font-family: $fontfamily; 
+		font-size:1.5em; 
+		font-weight:600; 
+		}
+	.img{
+		width:100%;
+		height:$h-imgfdpagebig;
+		color:#ffffff;
+	background-image: url($imgfdpage);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	z-index:8;
+	}
+	.erreur{ margin-bottom:10px;color:#ff0000;@include notif($erreur); }
+	.succes{ margin-bottom:30px;color:#0B610B;width:100%;text-align:center;@include notif($succes); }
+	}
+@media (max-width: $largeurchangesizefont) {
+	.h1{
+		font-family: $fontfamily; 
+		font-size:1.3em; 
+		font-weight:600; 
+		color: $colortext;}
+	.h2{
+		font-family: $fontfamily; 
+		font-size:1.1em; 
+		font-weight:600; 
+		color: $colortext;}
+	.h2M{
+		font-family: $fontfamily; 
+		font-size:1.1em; 
+		font-weight:600; 
+		}
+	.img{
+		width:100%; 
+		height:$h-imgfdpagesmall;
+		color:#ffffff;
+		background-image: url($imgfdpage);
+	background-size: auto 100px;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	}
+	.erreur{width:280px; margin-bottom:10px;color:#ff0000;@include notif($erreur); }
+	.succes{margin-bottom:30px; color:#0B610B;text-align:center;@include notif($succes); }
+	}

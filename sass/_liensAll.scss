@@ -1,0 +1,63 @@
+/* Liens communs à toutes les pages */
+
+p a{@include linktext($normal, $hover, $visited)
+}
+.globliens{
+background-color:#fff;
+width:100%;
+text-align:center;
+padding-top:10px;
+padding-bottom:0px;
+
+}
+/*essai list*/
+$msg-types: links, linksF2, linkInt!default;
+$msg-font: $fontfamily, $fontfamily, $logo!default;
+$msg-weight: 800, 400, 800!default;
+$msg-colors: black, black, black!default;
+$msg-hover: #cccccc, #cccccc, #cccccc!default;
+$msg-decoration: none, none, none!default;
+
+$msg-list: zip(
+$msg-types, $msg-font, $msg-weight, $msg-colors, $msg-hover, $msg-decoration
+);
+
+/*tablette*/
+@media ($Largmini : $largeur-phone + 1 ){
+@each $msg in $msg-list{
+a.#{nth($msg, 1)} {
+font-family: nth($msg, 2), sans-serif;
+$leweight: nth($msg, 3);
+@if $leweight == 400 {font-size: $sizetext ;} @else {font-size: $sizetext + 2;}
+font-weight: nth($msg, 3);
+color: nth($msg, 4);
+text-decoration: nth($msg, 6);}
+
+a.#{nth($msg, 1)}:hover {
+color: nth($msg, 5);
+text-decoration: nth($msg, 6);
+}
+}
+.globliens{margin-top:0px;}
+}
+/*telephone*/
+@media ($Largemax : $largeur-phone){
+@each $msg in $msg-list{
+a.#{nth($msg, 1)} {
+font-family: nth($msg, 2), sans-serif;
+$leweight: nth($msg, 3);
+@if $leweight == 400 {font-size: $sizetext - 2;} @else {font-size: $sizetext - 1;}
+font-weight: nth($msg, 3);
+color: nth($msg, 4);
+text-decoration: nth($msg, 6);
+}
+a.#{nth($msg, 1)}:hover {
+color: nth($msg, 5);
+text-decoration: nth($msg, 6);
+}
+}
+.globliens{margin-top:0px;}
+}
+@media ($Largmini : $largeur-tablette + 1 ){.globliens{margin-top:-20px;}}
+@media only screen and (min-width: 1463px) {
+.globliens{margin-top:4%;}}

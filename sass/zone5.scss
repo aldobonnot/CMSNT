@@ -1,0 +1,47 @@
+@import "compass";
+@import "variablesGlobales";
+@import "head";
+@import "menu";
+@import "liensAll";
+@import "footer";
+
+.global{
+width:80%;
+margin:auto;
+padding-bottom:10px;
+}
+.txt{
+font-family: $fontfamily;
+font-size:1em; 
+font-weight:400; 
+color: $colortext;
+}
+
+@media (min-width: $largeurchangesizefont + 1) {
+	.h1{
+		font-family: $fontfamily; 
+		font-size:2em; 
+		font-weight:600; 
+		color: $colortext;}
+	.img{
+		width:100%;
+		height:$h-imgfdpagebig;
+		color:#ffffff;
+	background-image: url($imgfdpage);
+	background-position: right bottom;
+	background-repeat: no-repeat;}
+	}
+@media (max-width: $largeurchangesizefont) {
+	.h1{
+		font-family: $fontfamily; 
+		font-size:1.3em; 
+		font-weight:600; 
+		color: $colortext;}
+	.img{
+		width:100%; 
+		height:$h-imgfdpagesmall;
+		color:#ffffff;
+		background-image: url($imgfdpage);
+	background-size: auto 100px;
+	background-position: right bottom;
+	background-repeat: no-repeat;}}
