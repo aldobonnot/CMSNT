@@ -401,3 +401,4 @@ body{font-family:arial;padding:0px;margin:0px}
 </table>
 </body>
 </html>
+//mode d'emploi
