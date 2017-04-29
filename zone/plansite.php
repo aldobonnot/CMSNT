@@ -1,6 +1,5 @@
 <div class="global">
 <h1 class="h1"><?php echo strtoupper(NDD);?> : Plan du site </h1>
-
 <div class="txt"><?php echo $contenu;
 if (isset($_SESSION['droit']) && $_SESSION['droit'] === "admiNTKS"){ $accordADMIN="okadmin"; }else{$accordADMIN = "nogood";}
 if($deconect=="okZ"){session_unset ();
