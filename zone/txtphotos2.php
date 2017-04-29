@@ -1,4 +1,4 @@
-<?php//laisser un cv ?>
+<!--laisser un cv -->
 <div class="global">
 <h1 class="h1"><?php echo $titrecontenu;?> </h1>
 <div class="txt"><?php echo $contenu;?><br>
