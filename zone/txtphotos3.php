@@ -55,9 +55,7 @@ break;}}else{?>&nbsp;<?php }?></td></tr>
 <tr><td class="cart"><?php $idphoto=$valeurP['id_photo']; if($leprix!=""){?><a class="carta various" data-fancybox-type="iframe" href="achat.php?oeuvre=<?php echo $idphoto;?>" >Acheter cette oeuvre</a><?php }else{?>&nbsp;<?php }?></td></tr>
 <tr><td class="cartB" id="ntd<?php echo $idphoto;?>"><?php $lanote=$valeurP['note_p'];if($lanote>0){echo $lanote;}else{echo"";}?><img src="img/love.png" id="<?php echo $idphoto;?>" onclick="showNote(this.id);" title="J'aime" alt="j'aime" style="cursor:pointer;"></td></tr>
 </table>
-</div>
-	
-	<?php }}?>
+</div>	<?php }}?>
 </div>
 </div>
 </div>
