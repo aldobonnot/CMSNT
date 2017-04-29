@@ -6,7 +6,7 @@
 //sql list event
 $Lesevents=new Events();
 $resultQvenements=$Lesevents->listEvents();
-//----------------
+//---------------
 if(!$resultQvenements){echo"<center><font color=\"#CC0000\"  size=\"3\"><b>Il n'y a pas de d'exposition enregistré</b></font></center>";} else {
 foreach($resultQvenements as $key => $rowQvenements){?>
 <div class="
