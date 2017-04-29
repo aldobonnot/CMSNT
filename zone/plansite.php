@@ -140,7 +140,7 @@ foreach($resultQpmC as $key => $rowQpmC){?>
           <table class="tabquatrevingtdixI">
             <tr> 
               <td class="tdDroitMarron" ><a href="backCMS/modifref.php?idM1=<?php echo $idmb;?>&idM2=<?php echo $idmc;?>&idM3=<?php echo $rowQpmC['id_M3'];?>" class="modif" target="_blank">Modif r&eacute;f&eacute;rencement</a> 
-                | <a href="backCMS/modifContPage.php?idM1=<?php echo $idmb;?>&idM2=<?php echo $idmc;?>&idM3=<?php echo $rowQpmC['id_M3'];?>" class="modif" target="_blank">Modif contenu page</a> | <a href="backCMS/AjtModLinksPage.php?idM1=<?php echo $idmb;?>&idM2=<?php echo $idmc;?>&idM3=<?php echo $rowQpmC['id_M3'];?>" class="modif" target="_blank">Ajout/modif liens page</a>
+               <a href="backCMS/modifContPage.php?idM1=<?php echo $idmb;?>&idM2=<?php echo $idmc;?>&idM3=<?php echo $rowQpmC['id_M3'];?>" class="modif" target="_blank">Modif contenu page</a> | <a href="backCMS/AjtModLinksPage.php?idM1=<?php echo $idmb;?>&idM2=<?php echo $idmc;?>&idM3=<?php echo $rowQpmC['id_M3'];?>" class="modif" target="_blank">Ajout/modif liens page</a>
 				<?php $fancy=$rowQpmC['fancybox']; if($fancy=="Y"){?> | <a href="backCMS/Listphotos.php?idM1=<?php echo $idmb;?>&idM2=<?php echo $idmc;?>&idM3=<?php echo $rowQpmC['id_M3'];?>" class="modif" target="_blank">Ajout/modif photos </a><?php }else{echo"";}?></td>
             </tr>
           </table>
