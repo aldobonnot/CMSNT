@@ -13,3 +13,4 @@
         document.getElementById("toggle-button").outerHTML = ""; }}
     navi();
     window.addEventListener('resize', navi);
+//Gestion de l'ouverture du menu pour tablette et smartphone

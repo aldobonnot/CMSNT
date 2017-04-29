@@ -8,3 +8,4 @@ $(function() {
 				})
           }
         });  
+//gestion des ul sous certains navigateurs necessaire pour le menu horizontal

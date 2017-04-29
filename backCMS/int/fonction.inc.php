@@ -3,7 +3,7 @@ $charge="<div style=\"margin-top:20%;margin-left:48%; position:absolute;z-index:
 function translate($chaine) {
 	$in = array("ç", "…", "œ", "€", "°", "’", "À", "Á", "Â", "Ã", "Ä", "Å", "à", "á", "â", "ã", "ä", "å", "Ò", "Ó", "Ô", "Õ", "Ö", "Ø", "ò", "ó", "ô", "õ", "ö", "ø", "È", "É", "Ê", "Ë", "è", "é", "ê", "ë", "Ç", "ç", "Ì", "Í", "Î", "Ï", "ì", "í", "î", "ï", "Ù", "Ú", "Û", "Ü", "ù", "ú", "û", "ü", "ÿ", "Ñ", "ñ", "ß", "&#260;", "&#261;", "&#280;", "&#281;", "&#321;", "&#322;", "&#379;", "&#380;");
  
-	$out = array("&ccedil;", "&hellip;", "&oelig;","&euro;", "&deg;", "'", "&Agrave;", "&Aacute;", "&Acirc;", "&Atilde;", "&Auml;", "&Aring;", "&agrave;", "&aacute;", "&acirc;", "&atilde;", "&auml;", "&aring;", "&Ograve;", "&Oacute;", "&Ocirc;", "&Otilde;", "&Ouml;", "&Oslash;", "&ograve;", "&oacute;", "&ocirc;", "&otilde;", "&ouml;", "&oslash;", "&Egrave;", "&Eacute;", "&Ecirc;", "&Euml;", "&egrave;", "&eacute;", "&ecirc;", "&euml;", "&Ccedil;", "&ccedil;", "&Igrave;", "&Iacute;", "&Icirc;", "&Iuml;", "&igrave;", "&iacute;", "&icirc;", "&iuml;", "&Ugrave;", "&Uacute;", "&Ucirc;", "&Uuml;", "&ugrave;", "&uacute;", "&ucirc;", "&uuml;", "&yuml;", "&Ntilde;", "&ntilde;", "&szlig;", "&#260;", "&#261;", "&#280;", "&#281;", "&#321;", "&#322;", "&#379;", "&#380;");
+	$out = array("&ccedil;", "&hellip;", "&oelig; ","&euro;", "&deg;", "'", "&Agrave;", "&Aacute;", "&Acirc;", "&Atilde;", "&Auml;", "&Aring;", "&agrave;", "&aacute;", "&acirc;", "&atilde;", "&auml;", "&aring;", "&Ograve;", "&Oacute;", "&Ocirc;", "&Otilde;", "&Ouml;", "&Oslash;", "&ograve;", "&oacute;", "&ocirc;", "&otilde;", "&ouml;", "&oslash;", "&Egrave;", "&Eacute;", "&Ecirc;", "&Euml;", "&egrave;", "&eacute;", "&ecirc;", "&euml;", "&Ccedil;", "&ccedil;", "&Igrave;", "&Iacute;", "&Icirc;", "&Iuml;", "&igrave;", "&iacute;", "&icirc;", "&iuml;", "&Ugrave;", "&Uacute;", "&Ucirc;", "&Uuml;", "&ugrave;", "&uacute;", "&ucirc;", "&uuml;", "&yuml;", "&Ntilde;", "&ntilde;", "&szlig;", "&#260;", "&#261;", "&#280;", "&#281;", "&#321;", "&#322;", "&#379;", "&#380;");
  
 	foreach($in as $key => $value) {
 		$chaine = str_replace($in[$key], $out[$key], $chaine);
@@ -60,7 +60,5 @@ echo"</script>";
 exit;
 } else {echo"";
 }
-
 }
 ?>
-

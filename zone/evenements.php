@@ -6,7 +6,7 @@
 //sql list event
 $Lesevents=new Events();
 $resultQvenements=$Lesevents->listEvents();
-//----------------
+//---------------
 if(!$resultQvenements){echo"<center><font color=\"#CC0000\"  size=\"3\"><b>Il n'y a pas de d'exposition enregistré</b></font></center>";} else {
 foreach($resultQvenements as $key => $rowQvenements){?>
 <div class="
@@ -15,7 +15,6 @@ $cdiv=$rowQvenements['date_fin_expo'];
 $cdiv2=$rowQvenements['date_debut_expo'];
 $date=date("Y-m-d");
 if($cdiv>$date){?>leven-green<?php }
-
 elseif($cdiv<=$date){?>leven-red<?php }
 else{?>leven<?php }?>">
 
