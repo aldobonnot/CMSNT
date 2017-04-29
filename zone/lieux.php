@@ -10,10 +10,14 @@ $resultQlieu=$listLL->listLieulien();
 //--------
 foreach($resultQlieu as $key => $rowQlieu ){?>
 <tr><td class="td">
-<a href="<?php $url=$rowQlieu['siteEEE'];if($url!=""){echo $url."\" target=\"_blank\"";}else{echo"#\"";}?> class="nl"> <?php echo utf8_decode(stripslashes($rowQlieu['nomEEE']));?></a>
+<a href="<?php $url=$rowQlieu['siteEEE'];if($url!=""){echo $url."\" target=\"_blank\"";}else{echo"#\"";}?>" class="nl"> 
+  <?php echo utf8_decode(stripslashes($rowQlieu['nomEEE']));?></a>
 </td></tr>
 <tr><td class="td al">
-<?php echo utf8_decode(stripslashes($rowQlieu['adresseEEE']));?> <?php echo $rowQlieu['cdpEEE'];?> <?php echo utf8_decode(stripslashes($rowQlieu['villeEEE']));?> <?php echo utf8_decode(stripslashes($rowQlieu['paysEEE']));?>
+<?php echo utf8_decode(stripslashes($rowQlieu['adresseEEE']));?> 
+  <?php echo $rowQlieu['cdpEEE'];?> 
+  <?php echo utf8_decode(stripslashes($rowQlieu['villeEEE']));?> 
+  <?php echo utf8_decode(stripslashes($rowQlieu['paysEEE']));?>
 
 </td></tr>
 <tr><td>&nbsp;
