@@ -10,7 +10,6 @@ $Lesevents=new Events();
 $Lesevents->idlien=$idlien2;
 $resultQvenements=$Lesevents->unEvent();
 //----------------
-
 foreach($resultQvenements as $key => $rowQvenements){ $cdiv=$rowQvenements['date_fin_expo'];
 $cdiv2=$rowQvenements['date_debut_expo'];
 $date=date("Y-m-d");?>
