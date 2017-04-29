@@ -1,6 +1,6 @@
 <?php
 //===== connexion
-$pdo= new PDO('mysql:dbname=tksom_bda;host=localhost', 'tksom', 'iewi5oiG',
+$pdo= new PDO('mysql:dbname=tksom_bd;host=localhost', 'root', '',
 array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING, PDO::MYSQL_ATTR_INIT_COMMAND =>'SET NAMES utf8' ));
 //constantes
 $coord=1;
@@ -37,9 +37,9 @@ require_once('fonction.inc.php');
 require_once('fonction.nav.php');
 require_once('construct.php');
 //--SQLI
-//$mysqli = new mysqli();
-//$mysqli->connect("localhost", "tksom", "iewi5oiG", "tksom_bda");
-//if ($mysqli->connect_error) {die('Erreur de connexion (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);}
+$mysqli = new mysqli();
+$mysqli->connect("localhost", "root", "", "tksom_bd");
+if ($mysqli->connect_error) {die('Erreur de connexion (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);}
 
 if($affLiens=="ok"){ require_once('objet/lienspage.php');}else{echo"";}
 Global $pdo;
