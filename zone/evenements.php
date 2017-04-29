@@ -15,7 +15,6 @@ $cdiv=$rowQvenements['date_fin_expo'];
 $cdiv2=$rowQvenements['date_debut_expo'];
 $date=date("Y-m-d");
 if($cdiv>$date){?>leven-green<?php }
-
 elseif($cdiv<=$date){?>leven-red<?php }
 else{?>leven<?php }?>">
 
