@@ -1,6 +1,6 @@
 /*
  * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
- *
+ *A ne jamis oter
  * Uses the built in easing capabilities added In jQuery 1.1
  * to offer multiple easing options
  *
