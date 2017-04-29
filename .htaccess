@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ErrorDocument 404 /404.htm
 Options +FollowSymlinks
 RewriteEngine on
@@ -33,3 +34,40 @@ RewriteRule ^contact_desinscription-newsletter_ok.php$ index.php?de=contact&rub=
 RewriteRule ^contact_themes-expositions.php$ index.php?de=contact&rub=themes-expositions [L]
 RewriteRule ^contact_performances-happening.php$ index.php?de=contact&rub=performances-happening [L]
 RewriteRule ^contact_cookies.php$ index.php?de=contact&rub=cookies [L]
+=======
+ErrorDocument 404 /404.htm
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^accueil.php$ index.php?de=accueil [L]
+RewriteRule ^oeuvres.php$ index.php?de=oeuvres [L]
+RewriteRule ^oeuvres_peintures.php$ index.php?de=oeuvres&rub=peintures [L]
+RewriteRule ^oeuvres_dessins.php$ index.php?de=oeuvres&rub=dessins [L]
+RewriteRule ^oeuvres_calligraphies.php$ index.php?de=oeuvres&rub=calligraphies [L]
+RewriteRule ^oeuvres_gravures.php$ index.php?de=oeuvres&rub=gravures [L]
+RewriteRule ^oeuvres_serigraphies.php$ index.php?de=oeuvres&rub=serigraphies [L]
+RewriteRule ^oeuvres_supports-speciaux.php$ index.php?de=oeuvres&rub=supports-speciaux [L]
+RewriteRule ^oeuvres_supports-speciaux_meubles.php$ index.php?de=oeuvres&rub=supports-speciaux&art=meubles [L]
+RewriteRule ^oeuvres_supports-speciaux_fresques.php$ index.php?de=oeuvres&rub=supports-speciaux&art=fresques [L]
+RewriteRule ^oeuvres_supports-speciaux_autres.php$ index.php?de=oeuvres&rub=supports-speciaux&art=autres [L]
+RewriteRule ^oeuvres_essai.php$ index.php?de=oeuvres&rub=essai [L]
+RewriteRule ^expositions.php$ index.php?de=expositions [L]
+RewriteRule ^expositions_traits-d-union.php$ index.php?de=expositions&rub=traits-d-union [L]
+RewriteRule ^expositions_point-de-vue.php$ index.php?de=expositions&rub=point-de-vue [L]
+RewriteRule ^expositions_lost-last.php$ index.php?de=expositions&rub=lost-last [L]
+RewriteRule ^expositions_tksom-veronique-berdellou.php$ index.php?de=expositions&rub=tksom-veronique-berdellou [L]
+RewriteRule ^expositions_noir.php$ index.php?de=expositions&rub=noir [L]
+RewriteRule ^contact.php$ index.php?de=contact [L]
+RewriteRule ^contact_ok.php$ index.php?de=contact&env=ok [L]
+RewriteRule ^contact_mentions-legales.php$ index.php?de=contact&rub=mentions-legales [L]
+RewriteRule ^contact_plan-du-site.php$ index.php?de=contact&rub=plan-du-site [L]
+RewriteRule ^contact_plan-du-site_okZ.php$ index.php?de=contact&rub=plan-du-site&dcnt=okZ [L]
+RewriteRule ^contact_biographie.php$ index.php?de=contact&rub=biographie [L]
+RewriteRule ^contact_liens.php$ index.php?de=contact&rub=liens [L]
+RewriteRule ^contact_newsletter.php$ index.php?de=contact&rub=newsletter [L]
+RewriteRule ^contact_newsletter_ok.php$ index.php?de=contact&rub=newsletter&env=ok [L]
+RewriteRule ^contact_desinscription-newsletter.php$ index.php?de=contact&rub=desinscription-newsletter [L]
+RewriteRule ^contact_desinscription-newsletter_ok.php$ index.php?de=contact&rub=desinscription-newsletter&env=ok [L]
+RewriteRule ^contact_themes-expositions.php$ index.php?de=contact&rub=themes-expositions [L]
+RewriteRule ^contact_performances-happening.php$ index.php?de=contact&rub=performances-happening [L]
+RewriteRule ^contact_cookies.php$ index.php?de=contact&rub=cookies [L]
+>>>>>>> 773fb8f3a8c9e8fc8a7c75b884fcf04acc004602
