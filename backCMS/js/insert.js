@@ -1,0 +1,34 @@
+$(document).ready(function(){
+    $("#flipSlide").mouseenter(function(){
+        $("#panelSlide").slideToggle("slow");
+		$("#panelSlide2").slideToggle("slow");
+	});
+	$("#flipSlideC").mouseenter(function(){
+        $("#panelSlideC").slideToggle("slow");
+		$("#panelSlide2C").slideToggle("slow");
+	});
+	$("#flipPub").click(function(){
+        $("#panelPub").slideToggle("slow");
+		
+	});
+	$("#flipRN").click(function(){
+        $("#panelRN").slideToggle("slow");
+		$("#flipRN").css("display","none");
+	});
+	$("#flipMRA").click(function(){
+        $("#panelMRA").slideToggle("slow");
+		$("#flipMRA").css("display","none");
+	});
+	$("#flipMRA2").click(function(){
+        $("#panelMRA2").slideToggle("slow");
+		$("#flipMRA2").css("display","none");
+	});
+	$("#flipMRA3").click(function(){
+        $("#panelMRA3").slideToggle("slow");
+		$("#flipMRA3").css("display","none");
+	});
+	$("#flipMRA4").click(function(){
+        $("#panelMRA4").slideToggle("slow");
+		$("#flipMRA4").css("display","none");
+	});
+});
