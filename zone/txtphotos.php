@@ -2,3 +2,5 @@
 <h1 class="h1"><?php echo $titrecontenu;?> </h1>
 <div class="txt"><?php echo $contenu;?> </div>
 </div>
+<!-- page de texte en faite
+     -->
