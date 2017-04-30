@@ -11,5 +11,5 @@ Un footer à crééer en fonction de vos besoins.<br><br>
 Il fonctionne super vite, il a des bons resultats dans Gmetrix.<br> ce n'est pas une référence je sais.<br>
 Je l'ai construit surtout pour faciliter la tache des referenceurs,<br>
 il ya des interfaces spécifiques pour eux.<br>
-Le rewriting est automatique, la création du sitemap.xml aussi.
+Le rewriting est automatique, la création du sitemap.xml aussi.<br>
 Pour le SQL de la BDD thierry.navas@neuf.fr
