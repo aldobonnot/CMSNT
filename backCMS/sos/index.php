@@ -143,7 +143,9 @@ a.arch{font-size:1.5em;font-weight:600; color:#000000;text-decoration:none;}a.ar
   <tr>
     <td align="center"> 
       <h2>Reconfiguration du site en cours</h2>
-		
+		Si cette page reste affichée c'est qu'il un probleme dans la construction de votre .htaccess.
+	    Votre site ne va pas fonctionner correctement.
+	    Regardez le fichier backCMS/sos/index.php
     </td>
   </tr>
 </table>
