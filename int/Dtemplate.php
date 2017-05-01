@@ -14,6 +14,6 @@ $affLesliens=$Lesliens->affliens();
 echo $affLesliens;
 ?></div><?php }else{echo"";} ?>
 
-<?php if($back=="okback"){?><a class="back" href="javascript:history.back();"> &lsaquo; </a><?php }else{echo"";}?>
+<?php if($back=="okback"){?><a class="back" href="javascript:history.back();"title="Back"> &lsaquo; </a><?php }else{echo"";}?>
 </section>
 </main>
