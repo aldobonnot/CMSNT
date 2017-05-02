@@ -97,7 +97,8 @@ a.arch{font-size:1.5em;font-weight:600; color:#000000;text-decoration:none;}a.ar
   <tr>
     <td align="center"> 
       <h2>Reconfiguration du sitemap</h2>
-		
+	Si cette page est affiché c'est qu'il y a un soucis et que votre sitemap n'est pas construit
+	    regardez ce qui se passe dans backCMS/sos/constructSM.php
     </td>
   </tr>
 </table>

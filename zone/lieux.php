@@ -4,7 +4,7 @@
 <div class="list">
 <table class="tl">
 <?php
-//sql des lieux et des liens
+//sql des lieux et des liens.
 $listLL=new Lieuxliens();
 $resultQlieu=$listLL->listLieulien();
 //--------

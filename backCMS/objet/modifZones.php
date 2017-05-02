@@ -5,7 +5,6 @@ class Modifzone {
 	public $idezone;
 
 public function selectmodif(){
-
 Global $pdo;
 $queryZ = $pdo->query("SELECT * FROM cms_zones WHERE mode_zone != '$this->mzone'  ORDER BY nom_Z ASC");
 $row1 = $queryZ->fetchall(PDO::FETCH_ASSOC);
