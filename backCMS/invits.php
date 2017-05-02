@@ -134,20 +134,20 @@ a.anul{font-family:Arial;font-weight:400;font-size:10px;color:#000000;text-decor
             <table  class=\"w380\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">
               <tr>
                 <td class=\"w380\" width=\"50%\" ><div class=\"ctn\">$lecontenu</div></td>
-                <td  class=\"w260\" width=\"50%\" align=\"right\" valign=\"top\"><a href=\"".URL."/expositions_$varexpo.php\"><img src=\"$laffiche\" class=\"round\" title=\"$letitre\" border=\"0\"></a></td>
+                <td  class=\"w260\" width=\"50%\" align=\"right\" valign=\"top\"><a href=\"".URL."expositions_$varexpo.php\"><img src=\"$laffiche\" class=\"round\" title=\"$letitre\" border=\"0\"></a></td>
               </tr>
             </table>
           </td>
         </tr>
         <tr>
           <td class=\"w640\"><hr class=\"hr\">
-<a href=\"".URL."/expositions_$varexpo.php\" class=\"lieu\" style=\"color:#000000;\">
+<a href=\"".URL."expositions_$varexpo.php\" class=\"lieu\" style=\"color:#000000;\">
 		<span style=\"color:#000000;font-size:16px;\"> <b>$nomlieu</b></span><br> <span style=\"color:#000000;\">$adresslieu $cdplieu $villelieu $payslieu</span></a>
 		<hr class=\"hr\"></td>
         </tr>
       </table>
     </td>
-  </tr><tr><td class=\"w640\" align=\"center\"> <span style=\"color:#000000;\"><a href=\"".URL."/contact_desinscription-newsletter.php\" class=\"anul\" style=\"color:#000000;\"> Pour se d&eacute;sabonner de la NewsLetter cliquez ici</a></span></td></tr>
+  </tr><tr><td class=\"w640\" align=\"center\"> <span style=\"color:#000000;\"><a href=\"".URL."contact_desinscription-newsletter.php\" class=\"anul\" style=\"color:#000000;\"> Pour se d&eacute;sabonner de la NewsLetter cliquez ici</a></span></td></tr>
 </table></body>
      </html>";
 
