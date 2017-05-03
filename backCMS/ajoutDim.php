@@ -1,4 +1,5 @@
 <?php session_start();
+//ajouter une dimension et les lister pour les oeuvres
 if(!isset($_POST['ajoutDim'])) $ajoutDim=""; else $ajoutDim=$_POST['ajoutDim'];
 if(!isset($_POST['nomdim'])) $nomdim=""; else $nomdim=$_POST['nomdim'];
 if(!isset($_POST['dim'])) $dim=""; else $dim=$_POST['dim'];
