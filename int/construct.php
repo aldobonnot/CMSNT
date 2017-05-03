@@ -1,4 +1,6 @@
-﻿<?php if(!isset($_GET['de'])) $de=""; else $de=$_GET['de'];
+<?php 
+//constructeur de toutes les informations nécessaires à la construction d'une page quelque soit son niveau
+if(!isset($_GET['de'])) $de=""; else $de=$_GET['de'];
 if(!isset($_GET['rub'])) $rub=""; else $rub=$_GET['rub'];
 if(!isset($_GET['art'])) $art=""; else $art=$_GET['art'];
 if (!isset($_GET['env'])) $env=""; else $env=$_GET['env'];
