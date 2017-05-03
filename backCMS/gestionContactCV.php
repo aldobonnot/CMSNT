@@ -1,4 +1,5 @@
 <?php session_start();
+//Gestion des contacts sur le site demande d'achat ou contact
 if(!isset($_POST['ajoutP'])) $ajoutP=""; else $ajoutP=$_POST['ajoutP'];
 if(!isset($_GET['archive'])) $archive=""; else $archive=$_GET['archive'];
 if(!isset($_GET['modif'])) $modif=""; else $modif=$_GET['modif'];
