@@ -54,7 +54,7 @@ $query2 = $mysqli->query("SELECT * FROM cms_cv ");
 $val2 = $query2->fetch_array();
 $nbPDES=mysqli_num_rows($query2);
 
-//select3
+//select de l'évenement
 
 $ordreP=1; 
 $ok="N";
@@ -82,7 +82,7 @@ $cdplieu=$val2Q['cdpEEE'];
 $villelieu=$val2Q['villeEEE'];
 $payslieu=$val2Q['paysEEE'];
 $varexpo=$val2Q['var_M2'];
-
+//construction du mail
 if($mail=="okmail"){
 
 $objet="News Letter Invitation TKsom";
@@ -150,7 +150,8 @@ a.anul{font-family:Arial;font-weight:400;font-size:10px;color:#000000;text-decor
   </tr><tr><td class=\"w640\" align=\"center\"> <span style=\"color:#000000;\"><a href=\"".URL."contact_desinscription-newsletter.php\" class=\"anul\" style=\"color:#000000;\"> Pour se d&eacute;sabonner de la NewsLetter cliquez ici</a></span></td></tr>
 </table></body>
      </html>";
-
+//fin construction du mail
+// boucle d'envoi des mails pour la news letter
 $oui="Y";
 $req=$mysqli->query("SELECT email_cv FROM cms_cv  WHERE envoi_nw='$oui' GROUP BY email_cv ");
 
@@ -168,6 +169,7 @@ echo 'Mail '.$ni.' bien envoyé à '.$email[0].'-<br>';
 $i++;}
 $messageOKE="Votre news letter a bien &eacute;t&eacute; envoy&eacute;";
 }
+// boucle d'envoi des mails
 ?>
 <!DOCTYPE html>
 <!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
