@@ -1,4 +1,5 @@
 <?php session_start();
+//Confirmation de l'enregistrement d'une dimension
 include('int/cxCMS.php');
 if (!isset($_SESSION['droit'])||($_SESSION['droit'] != "admiNTKS"))
 { echo"<script language=\"JavaScript\" type=\"text/javascript\">";
