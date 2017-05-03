@@ -1,4 +1,4 @@
- <table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <!-- Liste des sous rubrique d'une rubrique --><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr> 
     <td width="1%" align="center" bgcolor="#333333" class="tttab">&nbsp;</td>
     <td width="54%" align="center" bgcolor="#666666" class="tttab">Nom de la sous 
