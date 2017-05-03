@@ -1,4 +1,5 @@
 <?php session_start();
+//Liste des photos par rubrique
 if(!isset($_POST['ajoutP'])) $ajoutP=""; else $ajoutP=$_POST['ajoutP'];
 if(!isset($_POST['small'])) $small=""; else $small=$_POST['small'];
 if(!isset($_POST['moyen'])) $moyen=""; else $moyen=$_POST['moyen'];
