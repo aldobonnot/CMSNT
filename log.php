@@ -1,4 +1,5 @@
 <?php session_start();
+//page de connexion au BO
 require_once('int/cxCMS.php');
 if (!isset($_POST['valider'])) $_POST['valider']="";
 if (!isset($_POST['log'])) $_POST['log']="";
