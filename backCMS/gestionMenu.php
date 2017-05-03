@@ -1,4 +1,5 @@
 <?php session_start();
+//Gestion du menu de premier rang
 if(!isset($_GET['modifnM1'])) $modifnM1=""; else $modifnM1=$_GET['modifnM1'];
 if(!isset($_GET['ajoutM1'])) $ajoutM1=""; else $ajoutM1=$_GET['ajoutM1'];
 if(!isset($_POST['ajoutP'])) $ajoutP=""; else $ajoutP=$_POST['ajoutP'];
