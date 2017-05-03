@@ -1,4 +1,4 @@
-<table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+<!-- Formulaire pour ajouter une rubrique quelque soit son niveau--><table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr> 
     <td align="center">&nbsp;</td>
   </tr>
