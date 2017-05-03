@@ -1,4 +1,5 @@
 <?php session_start();
+//Liste des lieux pour les expositions
 if(!isset($_POST['ajoutP'])) $ajoutP=""; else $ajoutP=$_POST['ajoutP'];
 if(!isset($_POST['nomlieu'])) $nomlieu=""; else $nomlieu=$_POST['nomlieu'];
 if(!isset($_POST['adresse'])) $adresse=""; else $adresse=$_POST['adresse'];
