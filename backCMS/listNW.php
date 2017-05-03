@@ -1,4 +1,4 @@
- <table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <!-- Liste des inscrits sur le site --><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr> 
     <td width="5%" align="center" bgcolor="#333333" class="tttab">Id</td>
     <td width="30%" align="center" bgcolor="#333333" class="tttab">Email 
