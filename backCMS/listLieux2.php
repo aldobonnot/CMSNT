@@ -1,4 +1,4 @@
- <table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <!-- Formulaire de modification et d'ajout de lieux d'expositions--><table width="100%" border="0" cellspacing="0" cellpadding="0">
  <tr><td colspan="3" align="center"><a class="aflien" href="?&AffForm=oui">Ajouter 
       un lieu</a></td></tr>
   <tr> 
