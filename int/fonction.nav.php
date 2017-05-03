@@ -1,5 +1,5 @@
 <?php
-//affichage menu principal
+//Fonctions pour la construction menu principal
 function m1($de,$ordre,$var,$nom){
 	switch($ordre){
 		case 1: 
