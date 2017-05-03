@@ -1,4 +1,5 @@
 <?php session_start();
+//Modifier les coordonnées propriétaire site
 if(!isset($_POST['ajoutP'])) $ajoutP=""; else $ajoutP=$_POST['ajoutP'];
 
 if(!isset($_POST['nom_e'])) $nom_eZ=""; else $nom_eZ=$_POST['nom_e'];
