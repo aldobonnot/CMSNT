@@ -1,12 +1,8 @@
  <table width="100%" border="0" cellspacing="0" cellpadding="0">
  <tr>
-    
-    
-    <td colspan="5" align="center"><a class="aflien" href="?idM1=<?php echo $idM1;?>&idM2=<?php echo $idM2;?>&idM3=<?php echo $idM3;?>&AffForm=oui">Ajouter une oeuvre,
+     <td colspan="5" align="center"><a class="aflien" href="?idM1=<?php echo $idM1;?>&idM2=<?php echo $idM2;?>&idM3=<?php echo $idM3;?>&AffForm=oui">Ajouter une oeuvre,
       une photo</a> </td>
-    
-   
-  </tr>
+      </tr>
   <tr> 
     <td width="5%" align="center" bgcolor="#333333" class="tttab">&nbsp;</td>
     <td width="13%" align="center" bgcolor="#333333" class="tttab">Photo</td>
