@@ -83,7 +83,6 @@ if (file_exists($cache) && filemtime($cache) > $expire) {
     readfile($cache);
 } else {
     ob_start(); // ouverture du tampon
-
     $prcel = 100 / NBRCM;
     $breakM = 768;
     $breakM2 = $breakM + 1;
