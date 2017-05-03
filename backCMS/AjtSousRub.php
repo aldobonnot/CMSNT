@@ -1,4 +1,5 @@
 <?php session_start();
+//Ajouter une sous une soussous rubrique
 if(!isset($_GET['idM1'])) {$idM1="0";} else {$idM1=$_GET['idM1'];}
 if(!isset($_GET['idM2'])) {$idM2="0";} else {$idM2=$_GET['idM2'];}
 if(!isset($_GET['idM3'])) {$idM3="0";} else {$idM3=$_GET['idM3'];}
