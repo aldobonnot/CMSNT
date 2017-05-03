@@ -1,4 +1,5 @@
 <?php session_start();
+//modifier le contenu d'une page
 if(!isset($_POST['ajoutP'])) $ajoutP=""; else $ajoutP=$_POST['ajoutP'];
 if(!isset($_POST['editor1'])) $editor1=""; else $editor1=$_POST['editor1'];
 if(!isset($_POST['coment'])) $coment=""; else $coment=$_POST['coment'];
