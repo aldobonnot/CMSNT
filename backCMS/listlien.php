@@ -1,4 +1,4 @@
- <table width="100%" border="0" cellspacing="0" cellpadding="0">
+ <!-- List des liens d'une rubrique modif et ajout--><table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr> 
     <td width="5%" align="center" bgcolor="#333333" class="tttab">&nbsp;</td>
     <td width="30%" align="center" bgcolor="#333333" class="tttab">Titre du lien 
