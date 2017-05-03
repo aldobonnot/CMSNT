@@ -1,4 +1,5 @@
 <?php session_start();
+//Modifier les éléments de referencement d'une page
 if(!isset($_POST['ajoutP'])) $ajoutP=""; else $ajoutP=$_POST['ajoutP'];
 if(!isset($_POST['ttGoogle'])) $ttGoogle=""; else $ttGoogle=$_POST['ttGoogle'];
 if(!isset($_POST['coment'])) $coment=""; else $coment=$_POST['coment'];
