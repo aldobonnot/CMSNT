@@ -1,4 +1,5 @@
 <main>
+	<!--Appel des différentes templates->
 <section>
 	
 <?php if($back=="okback"){?><a class="back" href="javascript:history.back();"> &lsaquo; </a><?php }else{echo"";}?>
