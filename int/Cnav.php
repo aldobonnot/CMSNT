@@ -1,4 +1,5 @@
 <?php
+//Menu dynamique du site
 require_once('objet/nav.class.php');?>
 <nav id="navigation">	
 <div id="menuh">
