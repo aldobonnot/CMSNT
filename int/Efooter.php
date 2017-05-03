@@ -1,4 +1,5 @@
 <footer>
+	<!-- Footer de page-->
 <div class="globFoot">
 <div class="MLPL"><table class="tabF"><tr>
         <td><a class="linksF2" href="contact_mentions-legales.php">Mentions L&eacute;gales</a> 
