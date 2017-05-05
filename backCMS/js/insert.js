@@ -32,4 +32,4 @@ $(document).ready(function(){
 		$("#flipMRA4").css("display","none");
 	});
 });
-//back
+//back office JQUERYS
