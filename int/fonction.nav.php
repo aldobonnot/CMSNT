@@ -20,10 +20,10 @@ function m1($de,$ordre,$var,$nom){
 //affichage sous menu 
 function m2($rub,$var,$var2,$nom2){
 	if($var2==$rub){$style2="color: #ff0000;"; }else{$style2="";}
-	echo'<a class="parent" style="'.$style2.'" href="'.$var.'_'.$var2.'.php">'.$nom2.'</a>';
+	echo'<a class="parent" style="'.$style2.'" href="'.$var.'_'.$var2.'.php">'.stripslashes($nom2).'</a>';
 }
 
 function m3($var,$var2,$var3,$nom3){
-	echo'<a href="'.$var.'_'.$var2.'_'.$var3.'.php">'.$nom3.'</a>';
+	echo'<a href="'.$var.'_'.$var2.'_'.$var3.'.php">'.stripslashes($nom3).'</a>';
 }
 ?>
