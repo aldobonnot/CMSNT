@@ -25,5 +25,4 @@ function m2($rub,$var,$var2,$nom2){
 
 function m3($var,$var2,$var3,$nom3){
 	echo'<a href="'.$var.'_'.$var2.'_'.$var3.'.php">'.stripslashes($nom3).'</a>';
-}
-?>
+}?>
