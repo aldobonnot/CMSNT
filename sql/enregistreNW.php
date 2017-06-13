@@ -28,7 +28,8 @@ if($code!=$verif)
 $msg1="Le code anti-spam!<br>";}
 
 $From=$_POST['email_cv'];
-$FORMemail=trim($From);
+$email=trim($From);
+$FORMemail = htmlspecialchars($email, ENT_QUOTES);
 if ($FORMemail=="")    
 		{$ok=false;$msg4="Saisir une adresse mail !<br>";}else{if(!filter_var($FORMemail, FILTER_VALIDATE_EMAIL))
   		{$ok=false;$msg4="Saisir une adresse mail valide !<br>";}}
