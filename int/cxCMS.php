@@ -32,7 +32,7 @@ define("NBRCM",$nbrubnt);
 $content="";
 $contenu="";
 //===== SESSION
-//======Fonctions =====
+//======Fonctions globales =====
 require_once('fonction.inc.php');
 require_once('fonction.nav.php');
 require_once('construct.php');
