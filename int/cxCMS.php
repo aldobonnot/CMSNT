@@ -2,7 +2,7 @@
 //===== connexion
 $pdo= new PDO('mysql:dbname=tksom_bd;host=localhost', 'root', '',
 array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING, PDO::MYSQL_ATTR_INIT_COMMAND =>'SET NAMES utf8' ));
-//constantes
+//Mettre en constantes infos site
 $coord=1;
 
 $sth = $pdo->query("SELECT * FROM cms_coord WHERE id_coord='$coord'");
